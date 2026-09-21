@@ -1,0 +1,215 @@
+
+--- Welcome to E-Commerce ---
+Select your role:
+1. Admin
+2. User
+Enter your choice: 1
+
+--- Admin Login ---
+Username: admin
+Password: 
+
+
+--- Admin Dashboard ---
+1. Manage Products
+2. Manage Categories
+3. Manage Users
+4. Change Admin Credentials
+5. View Transactions
+6. Logout
+Enter your choice: 1
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 1
+
+Products:
+1. Laptop - $60000.0 (Stock: 5) | Category: Electronics
+2. Smartphone - $30000.0 (Stock: 10) | Category: Electronics
+3. T-Shirt - $500.0 (Stock: 20) | Category: Fashion
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 2
+Enter product name: pro
+Enter price: 123
+Enter stock: 4
+Enter category ID: 1
+Product added.
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 3 
+Enter product ID to update: 3
+Enter new stock: 8
+Stock updated.
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 1
+
+Products:
+1. Laptop - $60000.0 (Stock: 5) | Category: Electronics
+2. Smartphone - $30000.0 (Stock: 10) | Category: Electronics
+3. T-Shirt - $500.0 (Stock: 8) | Category: Fashion
+4. pro - $123.0 (Stock: 4) | Category: Electronics
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 4
+Enter product ID to delete: 4
+Product deleted.
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 1
+
+Products:
+1. Laptop - $60000.0 (Stock: 5) | Category: Electronics
+2. Smartphone - $30000.0 (Stock: 10) | Category: Electronics
+3. T-Shirt - $500.0 (Stock: 8) | Category: Fashion
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 5
+
+--- Admin Dashboard ---
+1. Manage Products
+2. Manage Categories
+3. Manage Users
+4. Change Admin Credentials
+5. View Transactions
+6. Logout
+Enter your choice: 1
+
+--- Manage Products ---
+1. View Products
+2. Add Product
+3. Update Product Stock
+4. Delete Product
+5. Back
+Enter your choice: 5
+
+--- Admin Dashboard ---
+1. Manage Products
+2. Manage Categories
+3. Manage Users
+4. Change Admin Credentials
+5. View Transactions
+6. Logout
+Enter your choice: 2
+
+--- Manage Categories ---
+1. View Categories
+2. Add Category
+3. Update Category
+4. Delete Category
+5. Back
+Enter your choice: 1
+
+Categories:
+1. Electronics - Devices and gadgets
+2. Fashion - Clothing and accessories
+
+--- Manage Categories ---
+1. View Categories
+2. Add Category
+3. Update Category
+4. Delete Category
+5. Back
+Enter your choice: 2
+Enter category name: books
+Enter description: studies
+Category added.
+
+--- Manage Categories ---
+1. View Categories
+2. Add Category
+3. Update Category
+4. Delete Category
+5. Back
+Enter your choice: 5
+
+--- Admin Dashboard ---
+1. Manage Products
+2. Manage Categories
+3. Manage Users
+4. Change Admin Credentials
+5. View Transactions
+6. Logout
+Enter your choice: 5
+
+Transactions:
+No transactions yet.
+
+--- Admin Dashboard ---
+1. Manage Products
+2. Manage Categories
+3. Manage Users
+4. Change Admin Credentials
+5. View Transactions
+6. Logout
+Enter your choice: 6
+Logging out...
+
+--- Welcome to E-Commerce ---
+Select your role:
+1. Admin
+2. User
+Enter your choice: 2
+
+1. Login
+2. Sign Up
+Enter your choice: 2
+Choose a username: asd
+Choose a password: 
+
+Registration successful. Please login.
+
+--- Welcome to E-Commerce ---
+Select your role:
+1. Admin
+2. User
+Enter your choice: 2
+
+1. Login
+2. Sign Up
+Enter your choice: 1
+Username: asd
+Password: 
+
+
+--- User Dashboard (asd) ---
+1. View Products
+2. Add Product to Cart
+3. View Cart
+4. Checkout
+5. Logout
