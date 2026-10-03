@@ -9,7 +9,7 @@ class ProductRepository:
         self.db = db
 
     def get_all(self):
-        return self.db.query(Product).all()
+        return self.db.query(Product).order_by(Product.id.asc()).all()
 
     def get_by_id(self, product_id: int):
         return (

@@ -9,7 +9,7 @@ class CategoryRepository:
         self.db = db
 
     def get_all(self):
-        return self.db.query(Category).all()
+        return self.db.query(Category).order_by(Category.id.asc()).all()
 
     def get_by_id(self, category_id: int):
         return (
