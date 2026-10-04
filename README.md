@@ -71,17 +71,16 @@ SQLAlchemy ORM
 PostgreSQL
 ```
 
-  Layer        Responsibility
-  ------------ ---------------------------------
-  Router       HTTP requests and responses
-  Schema       Request/response validation
-  Service      Business logic
-  Repository   Database access
-  Model        Database representation
-  Utils        Security and reusable utilities
-  Exceptions   Application errors
+ | Layer      | Responsibility                  |
+|------------|---------------------------------|
+| Router     | HTTP requests and responses     |
+| Schema     | Request/response validation     |
+| Service    | Business logic                  |
+| Repository | Database access                 |
+| Model      | Database representation         |
+| Utils      | Security and reusable utilities |
+| Exceptions | Application errors              |
 
-------------------------------------------------------------------------
 
 ## 🔐 Authentication
 
