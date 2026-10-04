@@ -1,76 +1,65 @@
 # ShopMart
 
-> A production-oriented e-commerce backend built with Python, FastAPI, SQLAlchemy, and PostgreSQL.
+> Production-oriented e-commerce backend built with Python, FastAPI, SQLAlchemy, and PostgreSQL.
 
-ShopMart is an e-commerce platform currently being developed with a layered backend architecture designed for maintainability, scalability, and future deployment.
+ShopMart is a scalable e-commerce backend developed using a layered architecture with clear separation between API handling, business logic, data access, and database persistence.
 
-The project is being developed incrementally from a prototype into a complete web-based shopping platform.
+The project focuses on clean architecture, secure authentication, database integrity, maintainability, and production-oriented backend engineering.
 
 ---
 
 ## 🚧 Project Status
 
-**Current Version:** `0.x` — Backend Foundation
+**Current Version:** `0.x` — Backend Foundation + Authentication
 
-The current implementation includes:
+### ✅ Implemented
 
-- FastAPI backend
-- PostgreSQL database integration
+- FastAPI REST API
+- PostgreSQL integration
 - SQLAlchemy ORM
-- Product management APIs
-- Category management APIs
-- Repository layer
-- Service layer
-- Pydantic request/response schemas
-- Custom application exceptions
+- Layered architecture
+- Repository and Service layers
+- Pydantic validation
 - Dependency injection
-- API health checks
+- Product CRUD APIs
+- Category CRUD APIs
+- User registration and login
+- bcrypt password hashing
+- JWT authentication
+- Bearer token authentication
+- Authenticated user endpoint
+- Custom exception handling
+- Application and database health checks
 - Swagger/OpenAPI documentation
+- Environment-based configuration
 
-Authentication, cart, checkout, orders, payments, testing, frontend, containerization, and deployment are planned for upcoming versions.
+### 🔨 In Development
 
----
-
-## 🎯 Project Goals
-
-The goal of ShopMart is to build a complete e-commerce platform while following professional software engineering practices.
-
-The project focuses on:
-
-- Clean architecture
-- Separation of responsibilities
-- Object-oriented design
-- RESTful API development
-- Database-backed applications
-- Input validation
-- Business logic isolation
-- Secure authentication
-- Transaction-safe order processing
+- Role-based authorization
+- Admin access control
+- Shopping cart
+- Orders and checkout
+- Inventory management
+- Payment abstraction
 - Automated testing
-- Containerization
+- Frontend
+- Dockerization
 - CI/CD
-- Deployment
+- Production deployment
 
 ---
 
 ## 🏗️ Architecture
 
-ShopMart follows a layered backend architecture:
-
 ```text
 Client
-   │
-   ▼
+   ↓
 FastAPI Routers
-   │
-   ▼
+   ↓
 Service Layer
-   │
-   ▼
+   ↓
 Repository Layer
-   │
-   ▼
+   ↓
 SQLAlchemy ORM
-   │
-   ▼
+   ↓
 PostgreSQL
