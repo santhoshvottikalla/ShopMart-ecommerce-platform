@@ -1,5 +1,4 @@
 from sqlalchemy.orm import Session
-
 from app.models.category import Category
 
 
@@ -12,30 +11,20 @@ class CategoryRepository:
         return self.db.query(Category).order_by(Category.id.asc()).all()
 
     def get_by_id(self, category_id: int):
-        return (
-            self.db.query(Category)
-            .filter(Category.id == category_id)
-            .first()
-        )
+        return self.db.query(Category).filter(Category.id == category_id).first()
 
     def get_by_name(self, name: str):
-        return (
-            self.db.query(Category)
-            .filter(Category.name == name)
-            .first()
-        )
+        return self.db.query(Category).filter(Category.name == name).first()
 
     def create(self, category: Category):
         self.db.add(category)
         self.db.commit()
         self.db.refresh(category)
-
         return category
 
     def update(self, category: Category):
         self.db.commit()
         self.db.refresh(category)
-
         return category
 
     def delete(self, category: Category):
